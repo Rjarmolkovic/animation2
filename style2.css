@@ -1,0 +1,85 @@
+body {
+  background: #BFA2DB;
+  /* color: black; */
+  margin: 0 auto;
+
+}
+
+
+.ball{
+  color: #753422;
+  font-size: 50px;
+    width: 0px;
+    height: 0px;
+    padding: 0px;
+    margin: 200px auto;
+  background: red;
+  font-family: Lucida Console;
+  animation: bouncing 4s infinite alternate ease;
+  }
+
+
+@keyframes bouncing {
+  from{transform: translateX(-430px)}
+  to{ transform: translateX(430px)}
+}
+
+.ball2:hover{
+  transform:rotate(2turn);
+  transition: 2s;
+}
+
+.ball2{
+  color: #753422;
+  font-size: 50px;
+  width: 0px;
+  height: 0px;
+  padding: 0px;
+  margin: 0 auto;
+  font-family: Arial;
+  animation: ex 3s infinite alternate ease;
+}
+
+@keyframes ex {
+100%  {transform:scale(2);}
+  from{transform: translateX(-430px)}
+  to{ transform: translateY(430px)}
+}
+
+
+.kvadratas{
+  color: #753422;
+  font-size: 50px;
+  width: 0px;
+  height: 0px;
+  padding: 0px;
+  margin: 0 auto;
+  font-family: Lucida Console;
+  animation: yx 3s infinite alternate ease;
+}
+
+
+@keyframes yx {
+  50% {transform: rotate(90deg) scale(2);
+  background: #FF67E7;
+  border-radius: 100%;
+}
+    from{transform: translateX(-150px)}
+    to{ transform: translateY(350px)}
+  }
+
+
+.spiner{
+  color:#7027a0;
+  font-size: 50px;
+    width: 0px;
+    height: 0px;
+    padding: 0px;
+    margin: 800px auto;
+}
+
+.spiner:hover{
+  cursor: pointer;
+  transform:Scale(2);
+  transition:2s;
+}
